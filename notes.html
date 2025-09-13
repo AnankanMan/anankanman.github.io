@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='owner' content='General Academics MedTU36'>
+    <meta name='copyright' content='General Academics MedTU36'>
+    <meta http-equiv='Cache-Control' content='no-cache'>
+    <title>Acad36 | Notes</title>
+    <link rel="icon" href="/imgs/2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+  <script src="src/specific/notes.js" type="module" loading="lazy" defer></script>
+<body>
+    <script src="src/onscroll.js"></script>
+    <script src="src/hamburger.js"></script>
+
+    <header>
+        <!-- Navigation menu -->
+        <nav>
+            <div class="navLogo">
+                <a href="/index.html">
+                    <img src="/imgs/2.png">
+                    <p>Acad MedTU36</p>
+                </a>
+            </div>
+            <button onclick="openMenu()">
+            <div class="menu">
+              <div id="bar1"></div>
+              <div id="bar2"></div>
+              <div id="bar3"></div>
+            </div>
+          </button>
+        </nav>
+        <!-- Banner -->
+
+    <!-- Side Menu -->
+    <div class="sideMenu">
+      <ul>
+        <li><a class="liMenu" href="/index.html">Home</a></li>
+        <li><a class="liMenu" href="/notes.html">Notes</a></li>
+        <li><a class="liMenu" href="/archive.html">Archive</a></li>
+        <li><a class="liMenu" href="/about.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="searchBar">
+            <div class="title">
+                <h1>การค้นหา</h1>
+            </div>
+            <form id="searchForm">
+                <label for="searchBox">Title:</label>
+                <input type="text" id="searchBox" placeholder="Search Here">
+                <label for="topicBox">Topic:</label>
+                <input type="topic" id="topicBox" placeholder="ex. MD110, MD112">
+                <button id="submit" type="button">
+                    <img src="imgs/magnifying.svg">
+                </button>
+            </form>
+    </div>
+    <script>
+       const elements = document.querySelectorAll("#searchBox, #topicBox");
+       elements.forEach(element => {
+        element.addEventListener("keypress", (event) => {
+         if (event.key === "Enter") {
+          event.preventDefault();
+          document.querySelector("#submit").click();
+         }
+        });
+       });
+    </script>
+    
+    <div class="announcements">
+        <div class="title">
+            <h1>ผลเสิร์ช</h1>
+        </div>
+        <div class="conveyorAnn">
+            <div class="box1_ann">
+                <div id="box1_dec">
+                    <a><h5>Untitled Title</h5></a>
+                    <hr>
+                    <p>Content for box 1</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <footer>
+        <div class="leftFoot">
+            <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/notes.html">Notes</a></li>
+            <li><a href="/archive.html">Archive</a></li>
+            <li><a href="/about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="rightFoot">
+            <p>Copyrighted by Academics MedTU36</p>
+            <img src="/imgs/2.png">
+        </div>
+    </footer>
+</body>
+
+  <!-- Necessary Styling -->
+     <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/header/onscroll.css" />
+  <link rel="stylesheet" href="css/header/hamburger.css" />
+  <link rel="stylesheet" href="css/header/sidemenu.css" />
+    <link rel="stylesheet" href="css/header/nav2.css" />
+  <link rel="stylesheet" href="css/footer/footer.css" />
+  
+    <!-- Specific Styling-->
+  <link rel="stylesheet" href="css/specific/notes.css" />
+</html>

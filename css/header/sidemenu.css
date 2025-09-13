@@ -1,0 +1,46 @@
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 2500px;
+    top: 80px;
+    font-family: "Sarabun", sans-serif;
+    font-size: 20px;
+    z-index: 99;
+    width: 0;
+}
+
+.sideMenu ul{
+    width: 100%;
+    list-style: none;
+}
+
+.sideMenu ul li{
+    width: inherit;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.395);
+    list-style: none;
+}
+
+.sideMenu ul li a{
+    color: inherit;
+    opacity: 0;
+    margin-left: 5%;
+    transition: color ease 200ms;
+}
+
+.sideMenu ul li a:hover{
+    cursor: pointer;
+    color: rgb(146, 124, 0);
+}
+
+.slide {
+    width: 100%;
+    transition: width ease 200ms;
+}
+

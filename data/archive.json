@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "title": "ชุดข้อสอบ 1",
+        "topic": "MD112",
+        "author": "sussy baka",
+        "detail": "ง่ายยยยมาก",
+        "qu": [
+            {
+                "qImg": "humerus1.png",
+                "q": "ถ้า Structure 5 เกิดการแตกหักจะส่งผลกระทบต่อ action ใดมากที่สุด",
+                "a1Img": "",
+                "a1": "Adduction of humerus",
+                "a2Img": "",
+                "a2": "Adbuction of humerus",
+                "a3Img": "",
+                "a3": "Protraction of scapula",
+                "a4Img": "",
+                "a4": "Retraction of scapula",
+                "soln": "2",
+                "solnDec": "ข้อที่ 1 เพราะ surgical neck มี axillary nerve"
+            },
+            {
+                "qImg": "",
+                "q": "ข้อใดถูก",
+                "a1Img": "",
+                "a1": "ถูก",
+                "a2Img": "",
+                "a2": "ผิด",
+                "a3Img": "",
+                "a4Img": "",
+                "a3": "ไม่ผิด",
+                "a4": "ไม่ถูก",
+                "soln": "1",
+                "solnDec": "ข้อที่ 1 เพราะ ถูก"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Weekly Quiz Week 1",
+        "topic": "MD110, MD112",
+        "author": "Acad Gen",
+        "detail": "ชิว",
+        "qu": [
+            {
+                "qImg": "",
+                "q": "A patient sustains a fracture of the ischial tuberosity. Which of the following movements would be most impaired? ",
+                "a1Img": "",
+                "a1": "Flexion of the hip",
+                "a2Img": "",
+                "a2": "Flexion of the knee",
+                "a3Img": "",
+                "a3": "Adduction of the hip",
+                "a4Img": "",
+                "a4": "Abduction of the hip",
+                "soln": "2",
+                "solnDec": "Ischial tuberosity เป็น origin ของ muscle of posterior thigh เช่น semitendinosus, biceps femoris long head, semimembranosus ซึ่งมี main action ในการ flex leg (flex knee) ทำให้เมื่อเกิด fracture ที่บริเวณ ischial tuberosity “Flexion of the knee” action น่าจะมีผลกระทบมากที่สุด"
+            },
+            {
+                "qImg": "",
+                "q": "A patient has been affected by cholera toxin. Which of the following cellular effects is most likely to happen?",
+                "a1Img": "",
+                "a1": "Decreased cAMP production due to loss of adenylyl cyclase activity",
+                "a2Img": "",
+                "a2": "Elevated cAMP level due to persistent activation of adenylyl cyclase",
+                "a3Img": "",
+                "a3": "Inactivation of protein kinase A (PKA)",
+                "a4Img": "",
+                "a4": "Increased IP3 and DAG signaling through phospholipase C",
+                "soln": "2",
+                "solnDec": "alpha subunit ของ cholera toxin ทำหน้าที่ในการสร้าง covalent bond ระหว่าง ATP-ribose กับ Gs-alpha protein เกิดเป็น ADP-ribosylated Gs-alpha.GTP ซึ่งสามารถ activate adenylyl cyclase ให้ปล่อยมาก cAMP ได้ตามปกติแต่ไม่สามารถเกิดการ hydrolyze GTP เป็น GDP ได้จึงทำให้เกิดการปล่อย cAMP อย่างต่อเนื่อง ทำให้ระดับ cAMP สูงขึ้น จึงตอบ b"
+            },
+            {
+                "qImg": "",
+                "q": "A man was stabbed, resulting in transection of the musculocutaneous nerve. Which of the following muscles is completely paralyzed?",
+                "a1Img": "",
+                "a1": "brachioradialis",
+                "a2Img": "",
+                "a2": "biceps brachii",
+                "a3Img": "",
+                "a3": "triceps brachii",
+                "a4Img": "",
+                "a4": "aconeus",
+                "soln": "2",
+                "solnDec": "กล้ามเนื้อข้างต้นมี nerve supply ดังนี้<ul><li>Brachioradialis - radial nerve</li><li>biceps brachii - musculocutaneous nerve</li><li>triceps brachii - radial nerve</li><li>Aconeus - radial nerve</li></ul>"
+            }
+        ]
+    }
+]
