@@ -109,10 +109,10 @@ const update = async () => {
         document.querySelector('.soln').style.display = "block";
     }
 
-    document.querySelector("#a1").addEventListener("click", () => (check(1)), {once: true});
-        document.querySelector("#a2").addEventListener("click", () => (check(2)), {once: true});
-        document.querySelector("#a3").addEventListener("click", () => (check(3)), {once: true});
-        document.querySelector("#a4").addEventListener("click", () => (check(4)), {once: true});
+    document.querySelector("#ans1").addEventListener("click", () => (check(1)), {once: true});
+        document.querySelector("#ans2").addEventListener("click", () => (check(2)), {once: true});
+        document.querySelector("#ans3").addEventListener("click", () => (check(3)), {once: true});
+        document.querySelector("#ans4").addEventListener("click", () => (check(4)), {once: true});
 
         const next = () => {
         updateQ(i+1);
